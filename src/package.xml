@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chatter Usage Dashboards</fullName>
+    <types>
+        <members>Chatter_Usage_Dashboards</members>
+        <members>Chatter_Usage_Dashboards/Chatter_Usage_Dashboard</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>Chatter_Usage</members>
+        <members>Chatter_Usage/Chatter_Group_Feeds_last_90_days</members>
+        <members>Chatter_Usage/Chatter_Posts_last_90_days</members>
+        <members>Chatter_Usage/GUS_Chatter</members>
+        <members>Chatter_Usage/GUS_Chatter_Feed_Item_Type_last_30d</members>
+        <members>Chatter_Usage/GUS_Chatter_Group_posts_x_User</members>
+        <members>Chatter_Usage/GUS_Chatter_Groups_creation_by_Access</members>
+        <members>Chatter_Usage/GUS_Chatter_Groups_creation_by_date</members>
+        <members>Chatter_Usage/GUS_Chatter_Groups_of_Members</members>
+        <members>Chatter_Usage/GUS_Chatter_User_of_Content_Posts</members>
+        <members>Chatter_Usage/GUS_Chatter_User_of_Posts</members>
+        <members>Chatter_Usage/Groups_Comments</members>
+        <members>Chatter_Usage/Users_with_Followers</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>Chatter_Groups_with_Group_Feed</members>
+        <members>Chatter_Groups_with_Group_Feed_and_Comments</members>
+        <members>Chatter_Groups_with_Group_Members</members>
+        <members>Users_with_Followers</members>
+        <members>Users_with_User_Feed</members>
+        <members>Users_with_User_Feed_and_Comments</members>
+        <name>ReportType</name>
+    </types>
+    <version>20.0</version>
+</Package>

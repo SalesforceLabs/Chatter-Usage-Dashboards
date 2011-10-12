@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CollaborationGroup$Name</field>
+    </columns>
+    <columns>
+        <field>CollaborationGroup.FeedItems$Type</field>
+    </columns>
+    <columns>
+        <field>CollaborationGroup$Owner</field>
+    </columns>
+    <columns>
+        <field>CollaborationGroup.FeedItems$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>CollaborationGroup$CollaborationType</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CollaborationGroup.FeedItems$CreatedBy</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Chatter Group posts x User - last 30</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Chatter_Groups_with_Group_Feed__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CollaborationGroup.FeedItems$CreatedDate</dateColumn>
+        <interval>INTERVAL_LAST30</interval>
+    </timeFrameFilter>
+</Report>
